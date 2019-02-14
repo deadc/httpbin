@@ -9,7 +9,6 @@ spec:
       labels:
         app: sleep
     spec:
-      serviceAccountName: sleep
       containers:
       - name: sleep
         image: pstauffer/curl
